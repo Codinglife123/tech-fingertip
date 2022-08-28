@@ -1,0 +1,163 @@
+* { margin: 0;
+    padding: 0;
+ }
+  body{
+  	font-family:calibri;
+
+  }
+  header{
+  	background-color: #23abe3;
+  }
+  header img{
+  	width: 80px;
+margin top:5px ;
+float: left;
+  }
+  header{
+  	text-align: center;
+  	padding: 8px;
+  	font-size: 2em ;
+  	color: #FFF;
+text-shadow: 2px 2px 2px grey;
+  }
+
+
+  /*nav bar_--------------------*/
+
+
+  nav ul{
+  	background-color: #0a0201;
+  }
+  nav ul li,
+  nav ul li a{
+  	color: #FFF;
+  	display: inline-block;
+  }
+nav ul li a:link,
+nav ul li a:visited{
+	text-decoration: none;
+	padding: 10px;
+	transition: all 0.2s;
+}
+nav ul li a:hover,
+nav ul li a:active{
+	background-color: #409ad5;
+
+}
+nav .search{
+
+	float: right;
+	margin-top: 9px;
+	margin-right: 50px;
+	width: 17%;
+	height: 20px;
+	border: none;
+	border-radius: 6px;
+ text-indent: 5px;
+}
+/* Main body */
+section {
+	/*border: 1px solid red;*/
+	background-color: #efefef;
+	width: 70%;
+	margin: 10px;
+    float:left;
+
+}
+article{
+
+}
+article div img{
+	width: 50px;
+	height: 50px;
+	float: left;
+	border-radius: 100px;
+}
+article h2{
+	color: #0a000d;
+}
+
+article img{
+	width: 60%;
+	height: 40%;
+
+}
+article p{
+	padding: 5px;
+}
+
+/* Aside bar */
+aside{
+	background-color: #efefef;
+	float: right;
+	margin: 10px;
+	width: 25%;
+}
+aside h3{
+	background-color: #afafaf;
+	text-align: center;
+	color: #FFF;
+	padding: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+aside ul{
+
+}
+ aside ul li,
+  aside ul li a{
+  	text-indent:10px ;
+  	display: block;
+  }
+aside ul li a:link,
+aside  ul li a:visited{
+	text-decoration: none;
+	color: #000;
+	padding: 10px;
+	font-size: 1.1em;
+	transition: all 0.5s;
+}
+aside ul li a:hover,
+aside ul li a:active{
+
+ text-indent: 20px;
+ background-color: #cfcfcf;
+
+}  
+/*Footer */
+footer{
+	background-color: #28abe3;
+	clear: both;
+	text-align: center;
+	color: #FFF;
+}
+
+.box{
+	margin: 10 auto;
+	width: 90%;
+	border-left: 5px solid brown;
+	padding: 5px;
+}
+/*contact page*/
+.form{
+	width: 80%;
+	background-color: #efefef;
+	margin: 10px;
+	margin-bottom: 380px;
+}
+.form input[type='text'],
+.form input[type='email'],
+.form textarea{
+	width:50%;
+	padding: 10px;
+	margin-top: 5px;
+	
+}
+.form input[type='submit']{
+background-color: #28abe3;
+border: none;
+color: #FFF;
+font-weight: bold;
+width: 50%;
+padding: 10px ;
+	}
